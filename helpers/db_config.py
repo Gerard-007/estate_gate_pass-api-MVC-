@@ -8,7 +8,7 @@ class Config:
 
 
 def initialize_db():
-    MONGO_URI = "mongodb+srv://geetechlab:Gerard-007@cluster0.tvycbjn.mongodb.net/naijacomfortinn?retryWrites=true&w=majority"
+    MONGO_URI = "mongodb+srv://<username>:<password>@cluster0.tvycbjn.mongodb.net/<table-name>?retryWrites=true&w=majority"
     try:
         connect(host=MONGO_URI)
         print("Connected to MongoDB!")
