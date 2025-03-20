@@ -1,0 +1,201 @@
+POST http://127.0.0.1:5000/api/auth/login
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "gnwazk@gmail.com",
+  "password": "Pass=123"
+}
+
+<> 2025-03-19T065053.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/auth/login
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "gnwazk@gmail.com",
+  "password": "Pass=123"
+}
+
+<> 2025-03-19T054137.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/auth/login
+Content-Type: application/json
+Content-Length: 59
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "email": "gnwazk@gmail.com",
+  "password": "Pass=123"
+}
+
+<> 2025-03-19T053202.500.html
+
+###
+
+POST http://127.0.0.1:5000/api/auth/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2RhdGEiOnsiZnVsbG5hbWUiOiJHZXJhcmQgTndhemsiLCJlbWFpbCI6Imdud2F6a0BnbWFpbC5jb20iLCJwaG9uZSI6IjA4MDEyMzQ1Njc4Iiwic3RhdHVzIjoiQWRtaW4ifSwiZXhwIjoxNzQyNDk0MTcyfQ.vLQa3DtU0b0np0LCM1WuPb9IkEz9bhJa8vTX5JtAuNw
+Content-Type: application/json
+Content-Length: 28
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "password": "Pass=123"
+}
+
+<> 2025-03-19T053032.400.json
+
+###
+
+POST http://127.0.0.1:5000/api/auth/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2RhdGEiOnsiZnVsbG5hbWUiOiJHZXJhcmQgTndhemsiLCJlbWFpbCI6Imdud2F6a0BnbWFpbC5jb20iLCJwaG9uZSI6IjA4MDEyMzQ1Njc4Iiwic3RhdHVzIjoiQWRtaW4ifSwiZXhwIjoxNzQyNDk0MTcyfQ.vLQa3DtU0b0np0LCM1WuPb9IkEz9bhJa8vTX5JtAuNw
+Content-Type: application/json
+Content-Length: 28
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "password": "Pass=123"
+}
+
+<> 2025-03-18T183657.500.html
+
+###
+
+POST http://127.0.0.1:5000/api/auth/verify/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2RhdGEiOnsiZnVsbG5hbWUiOiJHZXJhcmQgTndhemsiLCJlbWFpbCI6Imdud2F6a0BnbWFpbC5jb20iLCJwaG9uZSI6IjA4MDEyMzQ1Njc4Iiwic3RhdHVzIjoiQWRtaW4ifSwiZXhwIjoxNzQyNDk0MTcyfQ.vLQa3DtU0b0np0LCM1WuPb9IkEz9bhJa8vTX5JtAuNw
+Content-Type: application/json
+Content-Length: 28
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "password": "Pass=123"
+}
+
+<> 2025-03-18T181849.500.html
+
+###
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+Content-Length: 110
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "fullname": "Gerard Nwazk",
+  "email": "gnwazk@gmail.com",
+  "phone": "08012345678",
+  "status": "Admin"
+}
+
+<> 2025-03-18T180933.201.json
+
+###
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Gerard Nwazk",
+  "email": "gnwazk@gmail.com",
+  "phone": "08012345678",
+  "status": "Admin"
+}
+
+<> 2025-03-18T180441.400.json
+
+###
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+Content-Length: 106
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Gerard Nwazk",
+  "email": "gnwazk@gmail.com",
+  "phone": "08012345678",
+  "status": "Admin"
+}
+
+<> 2025-03-18T180209.400.json
+
+###
+
+POST http://localhost:5000/api/register
+Content-Type: application/json
+Content-Length: 94
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Gerard",
+  "email": "grd@gmail.com",
+  "token": 23456,
+  "password": "Pass=123"
+}
+
+<> 2025-03-18T175128.201.json
+
+###
+
+POST http://localhost:5000/api/register
+Content-Type: application/json
+Content-Length: 93
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Gerrad",
+  "email": "grd@gmail.com",
+  "token": 1234,
+  "password": "Pass=123"
+}
+
+<> 2025-03-18T174945.201.json
+
+###
+
+POST http://localhost:5000/register
+Content-Type: application/json
+Content-Length: 93
+User-Agent: IntelliJ HTTP Client/PyCharm 2024.2.5
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "Gerrad",
+  "email": "grd@gmail.com",
+  "token": 1234,
+  "password": "Pass=123"
+}
+
+<> 2025-03-18T174342.404.html
+
+###
+

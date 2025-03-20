@@ -1,0 +1,9 @@
+{
+  "data": {
+    "email": "grd@gmail.com",
+    "name": "Gerrad",
+    "password": "Pass=123",
+    "token": 1234
+  },
+  "status": "success"
+}

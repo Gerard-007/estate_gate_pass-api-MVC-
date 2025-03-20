@@ -1,0 +1,38 @@
+@BASE = http://127.0.0.1:5000/api
+@TOKEN = Bearer
+@VERIFICATION_TOKEN = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2RhdGEiOnsiZnVsbG5hbWUiOiJHZXJhcmQgTndhemsiLCJlbWFpbCI6Imdud2F6a0BnbWFpbC5jb20iLCJwaG9uZSI6IjA4MDEyMzQ1Njc4Iiwic3RhdHVzIjoiQWRtaW4ifSwiZXhwIjoxNzQyNDk0MTcyfQ.vLQa3DtU0b0np0LCM1WuPb9IkEz9bhJa8vTX5JtAuNw
+@ACCESS_TOKEN = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjM1OTI5NywianRpIjoiMjg3YTYyNDEtNjZkZS00NDMxLTlhOWEtODE5N2QwYzA1NDc1IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Imdud2F6a0BnbWFpbC5jb20iLCJuYmYiOjE3NDIzNTkyOTcsImNzcmYiOiJmNzYwMTY0ZC0yZWFjLTQ5NDgtODdjMC02ODljZmZiYTZkOTIiLCJleHAiOjE3NDIzNjAxOTd9.67tlbsOK2LRehIMN0XQ2hqtFvm7BshYAXTeguyntyx0
+@REFRESH_TOKEN = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc0MjM1OTI5NywianRpIjoiYmU0OTI1OTItODljNi00ZTgzLWI2MWUtNDJiYTA4ODNhMGQxIiwidHlwZSI6InJlZnJlc2giLCJzdWIiOiJnbndhemtAZ21haWwuY29tIiwibmJmIjoxNzQyMzU5Mjk3LCJjc3JmIjoiMzBjM2Y0MTQtM2JjYi00MWJkLTgzNTktYjUwMzE5ODZmNzc4IiwiZXhwIjoxNzQ0OTUxMjk3fQ.N6yTJ-peL6r1lOt081eJLuPaw9lNuVyN56PyYl7-fyM
+
+
+### Register link
+POST {{BASE}}/auth/register
+Content-Type: application/json
+
+{
+  "fullname": "Gerard Nwazk",
+  "email": "gnwazk@gmail.com",
+  "phone": "08012345678",
+  "status": "Admin"
+}
+
+
+### Verification link
+POST  {{BASE}}/auth/verify/{{VERIFICATION_TOKEN}}
+Content-Type: application/json
+
+{
+  "password": "Pass=123"
+}
+
+
+### Login link
+POST  {{BASE}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "gnwazk@gmail.com",
+  "password": "Pass=123"
+}
+
+
